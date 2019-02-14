@@ -13,5 +13,18 @@ npm run setup
 For local development, run:
 
 ```bash
-CTF_SPACE={YourID} CTF_HOST={preview.contentful.com | cdn.contentful.com CTF_TOKEN={deliveryToken | previewToken} npm run dev
+CTF_SPACE={spaceID} \
+CTF_HOST={preview.contentful.com|cdn.contentful.com} \
+CTF_TOKEN={deliveryToken|previewToken} \
+npm run dev
+```
+
+
+For deployment, run:
+
+```bash
+CTF_SPACE={spaceID} \
+CTF_HOST={preview.contentful.com|cdn.contentful.com} \
+CTF_TOKEN={deliveryToken|previewToken} \
+npm run build
 ```
